@@ -1,0 +1,92 @@
+1. Word2vec/GloVe:
+
+gensim
+glove-python-binary
+g++
+
+2. FastText:
+
+(g++-4.7.2 or newer) or (clang-3.3 or newer)
+Python version 2.7 or >=3.4
+NumPy & SciPy
+pybind11
+fasttext
+
+3. ELMo
+
+Python version >=3.5
+tensorflow-gpu==1.2 h5py
+
+4. Bert
+
+transformers
+tensorflow >= 1.11.0
+
+5. Tree-LSTM
+
+tree_lstm
+Torch7
+penlight
+nn
+nngraph
+optim
+Java >= 8 (for Stanford CoreNLP utilities)
+Python >= 2.7
+
+6. ASTNN
+
+python 3.6
+pandas 0.20.3
+gensim 3.5.0
+scikit-learn 0.19.1
+pytorch 1.0.0
+(The version used in our paper is 0.3.1 and source code can be cloned by specifying the v1.0.0 tag if needed)
+pycparser 2.18
+javalang 0.11.0
+RAM 16GB or more
+GPU with CUDA support is also needed
+BATCH_SIZE should be configured based on the GPU memory size
+
+7. TBCNN/TreeCaps
+
+keras
+tensorflow
+msgpack
+numpy
+progressbar2
+keras-rectified-adam
+scikit-learn
+tqdm
+scipy
+
+8. Node2vec
+
+node2vec
+networkx==1.11
+numpy==1.11.2
+gensim==0.13.3
+
+9. Deepwalk
+
+wheel>=0.23.0
+Cython>=0.20.2
+six>=1.7.3
+gensim>=1.0.0
+scipy>=0.15.0
+psutil>=2.1.1
+networkx>=2.0
+
+10. Graph2vec
+
+tensorflow (version == 1.4.0)
+networkx (version <= 2.0)
+scikit-learn (+scipy, +numpy)
+jsonschema        2.6.0
+tqdm              4.28.1
+numpy             1.15.4
+pandas            0.23.4
+texttable         1.5.0
+gensim            3.6.0
+networkx          2.4
+joblib            0.13.0
+logging           0.4.9.6
